@@ -56,10 +56,10 @@ export default function Sidebar() {
         placeholder="Filter by..."
       />
       <br />
-      {/* Render the filtered menu items as an unordered list */}
+
       <ul>
         {filteredItems.map((item, index) => (
-          <li key={index}>{item}</li> // Display each item as a list item
+          <li key={index}>{item}</li>
         ))}
       </ul>
     </div>
